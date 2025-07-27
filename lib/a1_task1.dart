@@ -4,7 +4,7 @@ class Task1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("My Info")),
+      appBar: AppBar(title: Text("Zahra")),
       body: Center(
         child: Container(
           padding: EdgeInsets.all(20),
@@ -15,8 +15,8 @@ class Task1 extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text("Name: Jack White"),
-              Text("City: Dhaka"),
+              Text("Name: Zahra"),
+              Text("City: Sylhet"),
               Text("Favorite Color: Blue"),
             ],
           ),
